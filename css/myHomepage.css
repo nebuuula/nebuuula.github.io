@@ -5,3 +5,18 @@
     z-index:99;
 }
 
+#logo {
+  width: 5vw;
+  height: 4vw;
+  margin-right: auto;
+}
+
+#biglogo {
+  width: 15vw;
+  height: auto;
+}
+
+table {
+    width: 100%;
+    margin: 0 0 20px 0;
+}

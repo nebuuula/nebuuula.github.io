@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>404 Not Found</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #2c3e50;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      p {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      a:hover {
+        color: #fff;
+        background: #e74c3c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/">
+        <div class="sakana1" id="sakana-widget"></div>
+      </a>
+      <h1>404</h1>
+    </div>
+
+    <script>
+      function initSakanaWidget() {
+        const logo = SakanaWidget.getCharacter("chisato");
+        logo.image = `./image/nebula.png`;
+        SakanaWidget.registerCharacter("logo", logo);
+        new SakanaWidget({
+          character: "logo",
+          size: 300,
+          controls: false,
+        }).mount("#sakana-widget");
+      }
+    </script>
+    <script
+      async
+      onload="initSakanaWidget()"
+      src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.1/lib/sakana.min.js"
+    ></script>
+  </body>
+</html>

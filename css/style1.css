@@ -1,9 +1,9 @@
 body {
     background: #fff;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
     background: #222;
     line-height: 1.7;
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: 300; 
 }
 
@@ -178,7 +178,7 @@ a {
       font-weight: 800; }
     @media (min-width: 768px) {
       .site-hero h1 {
-        font-size: 70px; } }
+        font-size: 7vw; } }
   .site-hero h1, .site-hero .lead {
     font-weight: 200;
     color: #fff; }
@@ -200,7 +200,7 @@ a {
     position: relative;
     font-weight: 200;
     padding-top: 20px;
-    font-size: 30px; }
+    font-size: 4vw; }
     .section-heading h2 strong {
       font-weight: 800; }
   .section-heading.text-center h2:before {
@@ -634,3 +634,20 @@ a {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
 
+
+th {
+    text-align: left;
+    border-bottom: 1px;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+th {
+    display: table-cell;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
