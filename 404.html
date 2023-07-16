@@ -47,11 +47,11 @@
     <script>
       function initSakanaWidget() {
         const logo = SakanaWidget.getCharacter("chisato");
-        logo.image = `./image/nebula.png`;
+        logo.image = `./image/big_logo.png`;
         SakanaWidget.registerCharacter("logo", logo);
         new SakanaWidget({
           character: "logo",
-          size: 300,
+          size: 400,
           controls: false,
         }).mount("#sakana-widget");
       }

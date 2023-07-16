@@ -316,11 +316,11 @@
     <script src="js/custom.js"></script>
 
     <!-- a cute and interesting widget and single click to return to the top -->
-    <!-- <a href="/"><div class="rightbottomWidget" id="sakana-widget"></div></a> -->
+    <a href="/"><div class="logo" id="sakana-widget"></div></a>
     <script>
       function initSakanaWidget() {
         const logo = SakanaWidget.getCharacter("chisato");
-        logo.image = `./image/nebula.png`;
+        logo.image = `./image/big_logo.png`;
         SakanaWidget.registerCharacter("logo", logo);
         new SakanaWidget({
           character: "logo",

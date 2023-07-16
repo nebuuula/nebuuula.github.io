@@ -1,8 +1,15 @@
-.rightbottomWidget{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index:99;
+.rightbottomWidget {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+}
+
+.logo {
+	position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99;
 }
 
 #logo {
@@ -17,6 +24,6 @@
 }
 
 table {
-    width: 100%;
-    margin: 0 0 20px 0;
+  width: 100%;
+  margin: 0 0 20px 0;
 }
